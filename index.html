@@ -1,0 +1,30 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Stocks</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+        <section class="seg-one">
+            <div><h1>Calculate the profit and loss of your stock🧐</h1></div>
+            <div>
+                <a class="button" href="#seg-two">Calculate</a> 
+            </div>
+        </section>	
+    	<main>
+            <section id="seg-two" class="container">
+                <h1>Check your stock values</h1>
+				<h2>Enter the values</h2>
+				<label for="ip_input"><input type="number" id="ip_input" placeholder="Enter Initial Price here" /></label>
+				<label  for="quantity_input"><input type="number" id="quantity_input" placeholder="Enter Number of Stocks here"/></label>
+				<label for="cp_input"><input type="number" id="cp_input" placeholder="Enter Current Price Here" /></label>
+				<button class="button2" id="submit-btn">Tell me!</button>
+				<div class="output" id="output_box"></div>
+            </section>
+		</main>
+
+		<script src="app.js" type="text/javascript"></script>
+	</body>
+</html>
