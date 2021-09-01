@@ -8,10 +8,10 @@ body{
 
 .seg-one {
     background: url("m-b-m-ZzOa5G8hSPI-unsplash.jpg") center center/cover;
-    height: 100vh;
+    height: 100%;
     left: 0;
     top: 0;
-    width: 100vw;
+    width: 100%;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -22,9 +22,17 @@ h1{
     color: white;
     font-size: 32pt;
     text-align: center;
-    margin: 2rem;
-    
+    margin: 2rem; 
 }
+
+.h1{
+    background-color:black;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin: 2rem; 
+}
+
 
 .button {
     margin-top: 50px;
@@ -39,7 +47,8 @@ h1{
 .container {
     height: 100vh;
     text-align: center;
-    width: 500px;
+    max-width: 50%;
+    width: 70%;
     margin: auto auto;
   }
   
